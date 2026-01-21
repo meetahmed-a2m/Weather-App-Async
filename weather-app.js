@@ -27,15 +27,14 @@
         } 
     }
 
-const chocoBtn = document.querySelector("#chocoBtn");
 
 
 
-function mouseFollow() {
-  document.addEventListener("mousemove", (e) => {
-    document.body.style.background =
-      `radial-gradient(circle at ${e.clientX}px ${e.clientY}px,
-      #eac11e, #222)`;
-  });
-}
-mouseFollow();
+// function mouseFollow() {
+//   document.addEventListener("mousemove", (e) => {
+//     document.body.style.background =
+//       `radial-gradient(circle at ${e.clientX}px ${e.clientY}px,
+//       #eac11e, #222)`;
+//   });
+// }
+// mouseFollow();
